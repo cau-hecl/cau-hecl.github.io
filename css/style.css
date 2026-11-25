@@ -667,6 +667,10 @@ img {
         padding: 16px 0;
     }
 
+    .publications-page .list-row > .tag {
+        order: -1;
+    }
+
     .news-page .news-group h2 {
         font-size: 1.25rem;
         margin-bottom: 12px;
@@ -980,5 +984,15 @@ img {
 
     .page-hero {
         padding: 28px 0 24px;
+    }
+
+    .page-section .research-topic h2 {
+        font-size: 1.25rem;
+    }
+
+    .research-topic p,
+    .research-topic ul {
+        font-size: .9375rem;
+        line-height: 1.55;
     }
 }
