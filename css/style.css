@@ -55,7 +55,7 @@ img {
 }
 
 .header-inner {
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -940,8 +940,20 @@ img {
 
 @media(max-width:800px) {
     .hero-inner {
-        min-height: 560px;
-        padding: 88px 0
+        min-height: 0;
+        padding: 52px 0;
+    }
+
+    .hero-note {
+        margin-top: 24px;
+    }
+
+    .page-hero {
+        padding: 36px 0 32px;
+    }
+
+    .page-hero p {
+        margin: 0;
     }
 
     .hero:before {
@@ -963,6 +975,10 @@ img {
     }
 
     .hero-inner {
-        min-height: 580px
+        padding: 36px 0;
+    }
+
+    .page-hero {
+        padding: 28px 0 24px;
     }
 }
