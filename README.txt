@@ -1,8 +1,21 @@
-CAU Experimental Particle Physics Lab Website — Visual Version 2
+# CAU High Energy Collider Physics Laboratory
 
-1. Unzip the archive.
-2. Double-click index.html to open in Safari.
-3. Edit HTML pages in VS Code. CSS styles are in css/style.css.
-4. All website graphics are included locally inside images/ and work offline.
-5. Hero image is an AI-generated conceptual depiction inspired by collider-detector structures, NOT an official photograph of CMS. Replace with an appropriately credited licensed CMS photo if publishing officially.
-6. People, lab contacts, publications and news are placeholders; verify before publication.
+Official website of the High Energy Collider Physics Laboratory
+at Chung-Ang University.
+
+## Preview locally
+
+Open `index.html` in a web browser.
+
+## Update the site
+
+- `people.html` — Member profiles, research topics, and contact information
+- `research.html` — Research areas and detector development
+- `publications.html` — Selected publications
+- `news.html` — Lab news, talks, and presentations
+- `activity.html` — Photos from workshops and other lab events
+- `css/style.css` — Site styles, including mobile layouts
+- `images/` — Profile photos, event photos, and research images
+
+Commit changes to the GitHub Pages publishing branch and check the
+deployment status in the repository's Actions tab.
